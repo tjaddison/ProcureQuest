@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Scenario, Decision } from '../types/game';
+import { Scenario } from '../types/game';
 
 interface DecisionViewProps {
   scenario: Scenario | null;
@@ -99,7 +99,7 @@ const DecisionView = ({
           <div className="bg-blue-900 p-6 rounded-xl max-w-md w-full">
             <h3 className="text-xl font-bold text-white mb-4">Confirm Your Decision</h3>
             <p className="text-blue-100 mb-6">
-              Are you sure you want to proceed with this decision? This will impact your company's metrics and cannot be undone.
+              Are you sure you want to proceed with this decision? This will impact your company&apos;s metrics and cannot be undone.
             </p>
             
             {selectedDecisionId && (

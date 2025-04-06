@@ -155,7 +155,7 @@ const Game = () => {
       return (
         <FeedbackView 
           scenario={currentScenario}
-          decision={selectedDecisionId ? currentScenario?.decision.options.find(d => d.id === selectedDecisionId) : null}
+          decision={selectedDecisionId && currentScenario ? currentScenario.decision.options.find(d => d.id === selectedDecisionId) || null : null}
           onContinue={handleContinue}
         />
       );

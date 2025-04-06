@@ -1,4 +1,4 @@
-import { Scenario } from "../types/game";
+import { Scenario, GameMetrics } from "../types/game";
 
 export const scenarios: Scenario[] = [
   {

@@ -68,7 +68,7 @@ const GameSummary = ({ playerState, onRestart }: GameSummaryProps) => {
       {/* Header */}
       <div className="mb-8 text-center">
         <h2 className="text-4xl font-bold text-white mb-2">Procurement Challenge Complete!</h2>
-        <p className="text-xl text-blue-300">You've completed all 12 procurement scenarios</p>
+        <p className="text-xl text-blue-300">You&apos;ve completed all 12 procurement scenarios</p>
       </div>
       
       {/* Badge and score */}

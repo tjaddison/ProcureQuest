@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import dynamic from "next/dynamic";
 
 // Dynamically load game component with no SSR to ensure localStorage is available

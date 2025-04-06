@@ -126,7 +126,7 @@ const Dashboard = ({
           <div className="bg-blue-900 p-6 rounded-xl max-w-2xl">
             <h3 className="text-2xl font-bold text-white mb-4">Welcome to ProcureQuest!</h3>
             <p className="text-blue-100 mb-4">
-              As the Procurement Manager, you'll face 12 challenging scenarios that test your strategic thinking and business acumen.
+              As the Procurement Manager, you&apos;ll face 12 challenging scenarios that test your strategic thinking and business acumen.
             </p>
             <div className="space-y-3 mb-6">
               <div className="bg-blue-800 p-3 rounded">
@@ -135,7 +135,7 @@ const Dashboard = ({
                   <li>Review each scenario and understand the procurement challenge</li>
                   <li>Analyze supplier data, market information, and performance metrics</li>
                   <li>Make strategic decisions based on the available information</li>
-                  <li>See the impact of your decisions on your company's metrics</li>
+                  <li>See the impact of your decisions on your company&apos;s metrics</li>
                   <li>Learn from optimal strategies to improve your procurement skills</li>
                 </ol>
               </div>
@@ -144,9 +144,9 @@ const Dashboard = ({
                 <h4 className="text-green-300 font-bold">Key Metrics:</h4>
                 <ul className="list-disc list-inside text-blue-100 ml-2 space-y-1">
                   <li><span className="text-green-400 font-medium">Budget:</span> Your available financial resources</li>
-                  <li><span className="text-red-400 font-medium">Risk:</span> Your company's exposure to supply chain disruptions</li>
+                  <li><span className="text-red-400 font-medium">Risk:</span> Your company&apos;s exposure to supply chain disruptions</li>
                   <li><span className="text-blue-400 font-medium">Stability:</span> The reliability of your operations</li>
-                  <li><span className="text-purple-400 font-medium">Reputation:</span> Your company's standing with stakeholders</li>
+                  <li><span className="text-purple-400 font-medium">Reputation:</span> Your company&apos;s standing with stakeholders</li>
                 </ul>
               </div>
             </div>
@@ -154,7 +154,7 @@ const Dashboard = ({
               onClick={() => setShowTutorial(false)}
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded font-medium w-full"
             >
-              Got it, let's get started!
+              Got it, let&apos;s get started!
             </button>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Image from 'next/image';
 
 interface WelcomeScreenProps {
   onStartGame: (playerName: string) => void;
@@ -30,7 +29,7 @@ const WelcomeScreen = ({ onStartGame }: WelcomeScreenProps) => {
               Welcome to ProcureQuest, where your procurement decisions shape the future of your company!
             </p>
             <p className="text-md text-blue-200 mb-4">
-              You are the new Procurement Manager at GlobalTech Industries. Your decisions will impact the company's budget, supply chain stability, risk exposure, and reputation.
+              You are the new Procurement Manager at GlobalTech Industries. Your decisions will impact the company&apos;s budget, supply chain stability, risk exposure, and reputation.
             </p>
             <p className="text-md text-blue-200">
               Navigate 12 challenging procurement scenarios, analyze data, and make strategic decisions that balance short-term needs with long-term success.
